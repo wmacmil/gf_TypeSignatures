@@ -1,7 +1,7 @@
 abstract Typez = { 
 
 cat 
-  Typ ; TypJdg ; Name ; Clas ; S ;
+  Typ ; TypJdg ; TypVar ; Name ; Clas ; S ;
 
 --adding A for abstract
 --question about asssociativity of type signatures
@@ -19,7 +19,13 @@ fun
   Eval : TypJdg -> S;
 
   --class added
-  AMkTyp : String -> Clas -> Typ ;  -- x
+  --AMkTyp : String -> Clas -> Typ ;  -- x
+  AMkTyp : TypVar -> Clas -> Typ ;  -- x
+  Xx : TypVar ;
+  Yy : TypVar ;
+  Zz : TypVar ;
+
+
   Monad : Clas ;
   Num : Clas ;
 
