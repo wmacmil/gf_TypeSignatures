@@ -73,6 +73,9 @@ lin
   Monad = "Monad" ;
   Num = "Num" ;
 
+
+--https://docs.google.com/document/d/1x7omuxKrtztWIFjs95hCI0327ahYzWZrMgOFaXKjmF0/edit
+
   --Typez> p "f :: ( Monad x , , , ) => ( ( x -> String ) -> ( String -> String ) )"
   --Eval (TypSig (MkName "f") (AArr (AArr (AMkTyp Xx Monad) AString) (AArr AString AString)))
 --  ypez> p "f :: ( Monad x , Num x , , ) => ( ( x -> x ) -> ( String -> Strin
